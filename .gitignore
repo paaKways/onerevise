@@ -7,7 +7,10 @@
 /coverage
 
 # production
-/build
+# /build
+
+# py cache
+.pyc
 
 # misc
 .DS_Store
