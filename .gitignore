@@ -10,10 +10,10 @@
 # /build
 
 # py cache
-.
+.pyc
 
 # sqlite
-.sqlite
+.sqlite3
 
 # misc
 .DS_Store
