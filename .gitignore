@@ -7,13 +7,13 @@
 /coverage
 
 # production
-# /build
+/build
 
 # py cache
-.pyc
+__pycache__
 
 # sqlite
-.sqlite3
+db.sqlite3
 
 # misc
 .DS_Store
