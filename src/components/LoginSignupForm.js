@@ -4,11 +4,12 @@ import { LOGIN } from '../reducers/actions/types'
 
 const LoginSignupForm = props => {
     const {email, password, first_name, last_name, onChange, formState} = props
+    console.log(props)
     const toHide = formState === LOGIN 
     const buttonState = toHide ? 'Login' : 'Sign up'
 
     return (
-        <div>
+        <div className="ui container">
             <form className="ui form">         
                 <span className="ui horizontal divider">
                     <div className="circle"></div>
