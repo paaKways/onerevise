@@ -5,11 +5,11 @@ import { Admin, Dashboard, Browse, Home } from './pages'
 
 const routes = (
     <Switch>
-        <Route path='/browse/:id' component={Browse}></Route>
-        <Route path='/browse' component={Browse}></Route>
-        <Route path='/admin' component={Admin}></Route>
-        <Route path='/dashboard' component={Dashboard}></Route>
-        <Route path='/' component={Home}></Route>
+        <Route path='/app/browse/:id' component={Browse}></Route>
+        <Route path='/app/browse' component={Browse}></Route>
+        <Route path='/app/admin' component={Admin}></Route>
+        <Route path='/app/dashboard' component={Dashboard}></Route>
+        <Route exact path='/app' component={Home}></Route>
     </Switch>
 )
 

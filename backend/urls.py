@@ -19,7 +19,6 @@ from django.urls import path, re_path
 from .views import index
 
 urlpatterns = [
-    path(r'^$', index, name='index'),
-    re_path('.*', index, name='index')
-    # path('admin/', admin.site.urls),
+    re_path(r'^app/', index, name='index'),
+    path('admin/', admin.site.urls),
 ]
