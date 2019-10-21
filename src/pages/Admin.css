@@ -1,0 +1,18 @@
+#login-page > .grid {
+    height: 100vh;
+    background: #e7e7e7;
+}
+.column {
+    max-width: 400px;
+}
+.active {
+    background: #a333c8 !important;
+    color:  #fff !important;
+}
+.circle {
+    width: 25px;
+    height: 25px;
+    background: #f7f7f7;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
