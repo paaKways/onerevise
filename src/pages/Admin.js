@@ -20,14 +20,18 @@ class Admin extends Component {
     }
 
     render() {
-        const { onInputChange, onFormStateChange, formState } = this.props
+        const { onInputChange, onFormStateChange, formState, email, password, first_name, last_name } = this.props
         return (
         <div id="login-page">
             <div className="ui middle aligned center aligned grid">
                 <div className="column">
                     <FormStatePicker onFormStateChange={onFormStateChange} formState={formState} />
                     <LoginSignupForm 
-                        formState={formState}   
+                        formState={formState} 
+                        first_name={first_name}
+                        last_name={last_name}
+                        email={email} 
+                        password={password} 
                         onChange={onInputChange} />    
                 </div>
             </div>
