@@ -10,7 +10,7 @@ import './Admin.css'
 
 
 
-class Login extends Component {
+class Admin extends Component {
     static propTypes = {
         email: PropTypes.string,
         password: PropTypes.string,
@@ -54,4 +54,4 @@ const mapDispatchToProps = dispatch => ({
     
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(Login)
+export default connect(mapStateToProps, mapDispatchToProps)(Admin)
