@@ -27,7 +27,7 @@ BOOLEAN_VALS = { 'True': True, 'False': False }
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = BOOLEAN_VALS[os.environ['DEBUG']]
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['onerevise.herokuapp.com']
 
 
 # Application definition
