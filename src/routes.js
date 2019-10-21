@@ -9,7 +9,7 @@ const routes = (
         <Route path='/app/browse' component={Browse}></Route>
         <Route path='/app/admin' component={Admin}></Route>
         <Route path='/app/dashboard' component={Dashboard}></Route>
-        <Route exact path='/app' component={Home}></Route>
+        <Route path='/' component={Home}></Route>
     </Switch>
 )
 

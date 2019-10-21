@@ -20,5 +20,6 @@ from .views import index
 
 urlpatterns = [
     re_path(r'^app/', index, name='index'),
+    path('', index, name='index'),
     path('admin/', admin.site.urls),
 ]
